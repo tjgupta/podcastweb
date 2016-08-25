@@ -1,12 +1,17 @@
-# django-podcast
+# podcastweb
 
 ## Installation
-1. Clone repo. 
+1. Clone podcastweb repo. 
 
     ```
-    git clone git@github.com:tjgupta/django-podcast.git
+    git clone git@github.com:tjgupta/podcastweb.git
     ```
-2. Create python environment. 
+2. Clone django-podcast repo.
+
+   ```
+   git clone git@github.com:tjgupta/django-podcast.git
+   ```
+3. Create python environment. 
 
    ```
    pyvenv [path where you want venv]
@@ -21,6 +26,7 @@
    ```
    cd [path/to/repo]
    pip install -r requirements.txt
+   pip install -e [path/to/django-podcast/repo]
    ```
  
 5. Start server.
