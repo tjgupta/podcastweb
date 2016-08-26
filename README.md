@@ -6,12 +6,7 @@
     ```
     git clone git@github.com:tjgupta/podcastweb.git
     ```
-2. Clone django-podcast repo.
-
-   ```
-   git clone git@github.com:tjgupta/django-podcast.git
-   ```
-3. Create python environment. 
+2. Create python environment. 
 
    ```
    pyvenv [path where you want venv]
@@ -21,12 +16,11 @@
    ```
    source [path/to/env]/bin/activate
    ```
-4. Install dependencies. 
+4. Install dependencies. The django-podcast dependency (editable) will get installed to [path/to/env]/src/django-podcast.
 
    ```
    cd [path/to/repo]
    pip install -r requirements.txt
-   pip install -e [path/to/django-podcast/repo]
    ```
  
 5. Start server.

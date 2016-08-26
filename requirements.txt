@@ -1,1 +1,2 @@
 Django==1.10
+-e git+https://github.com/tjgupta/django-podcast.git#egg=django_podcast
