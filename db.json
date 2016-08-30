@@ -1,1 +1,172 @@
-[{"model": "podcast.podcast", "pk": 1, "fields": {"title": "Being the Doctor Who Podcast", "description": "Podcast discussing the latest Doctor Who news and rumors", "link": "www.example.com/podcasts/doctorwho", "language": "en-us", "copyright": "Davinder Mahal", "pub_date": "2016-08-30T17:58:54Z", "webmaster": "webmaster@example.com", "author": "Davinder Mahal", "subtitle": "Doctor Who news and rumors", "summary": "Podcast discussing the latest Doctor Who news and rumors", "category": "sci fi", "image_url": "doctorwho.jpg", "owner": "Davinder Mahal", "email": "webmaster@example.com"}}, {"model": "podcast.keyword", "pk": 7, "fields": {"name": "SciFi"}}, {"model": "podcast.keyword", "pk": 8, "fields": {"name": "TV Show"}}, {"model": "podcast.keyword", "pk": 9, "fields": {"name": "Movie"}}, {"model": "podcast.keyword", "pk": 10, "fields": {"name": "Marvel Comics"}}, {"model": "podcast.keyword", "pk": 11, "fields": {"name": "DC Comics"}}, {"model": "podcast.keyword", "pk": 12, "fields": {"name": "Arrow"}}, {"model": "podcast.keyword", "pk": 13, "fields": {"name": "The Flash"}}, {"model": "podcast.keyword", "pk": 14, "fields": {"name": "Doctor Who"}}, {"model": "podcast.keyword", "pk": 15, "fields": {"name": "TARDIS"}}, {"model": "podcast.episode", "pk": 1, "fields": {"podcast": 1, "title": "Episode 1: Galiffrey", "author": "Davinder", "subtitle": "Doctor Who news and rumors", "summary": "Podcast discussing the latest Doctor Who news anad rumors", "image_url": "doctorwho.jpg", "description": "Podcast discussing the latest Doctor Who news anad rumors", "pub_date": "2016-08-30T18:09:51Z", "date_created": "2016-08-30T18:09:53.123Z", "last_modified": "2016-08-30T18:14:55.280Z", "keywords": [8, 14, 7]}}, {"model": "podcast.episode", "pk": 2, "fields": {"podcast": 1, "title": "Episode 2: The TARDIS", "author": "Davinder", "subtitle": "What is the TARDIS?", "summary": "Discuss the TARDIS, how it came to be and how the Doctor got his", "image_url": "doctorwho.jpg", "description": "Discuss the TARDIS, how it came to be and how the Doctor got his. TARDIS stands fot Time And Relative Dimension In Space.", "pub_date": "2016-08-30T18:17:04Z", "date_created": "2016-08-30T18:20:56.282Z", "last_modified": "2016-08-30T18:20:56.282Z", "keywords": [8, 15, 14, 7]}}, {"model": "podcast.video", "pk": 2, "fields": {"episode": 1, "duration": 130, "filename": "episode1.mp4", "mime": "video/mp4"}}, {"model": "podcast.video", "pk": 3, "fields": {"episode": 2, "duration": 350, "filename": "episode2.mp4", "mime": "video/mp4"}}, {"model": "podcast.audio", "pk": 2, "fields": {"episode": 1, "duration": 123, "filename": "episode1.mp3", "mime": "audio/mpeg"}}, {"model": "podcast.audio", "pk": 3, "fields": {"episode": 2, "duration": 300, "filename": "episode2.mp3", "mime": "audio/mpeg"}}]
+[
+    {
+        "model": "podcast.podcast",
+        "pk": 1,
+        "fields": {
+            "title": "Being the Doctor Who Podcast",
+            "description": "Podcast discussing the latest Doctor Who news and rumors",
+            "link": "www.example.com/podcasts/doctorwho",
+            "language": "en-us",
+            "copyright": "Davinder Mahal",
+            "pub_date": "2016-08-30T17:58:54Z",
+            "webmaster": "webmaster@example.com",
+            "author": "Davinder Mahal",
+            "subtitle": "Doctor Who news and rumors",
+            "summary": "Podcast discussing the latest Doctor Who news and rumors",
+            "category": "sci fi",
+            "image_url": "doctorwho.jpg",
+            "owner": "Davinder Mahal",
+            "email": "webmaster@example.com"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 7,
+        "fields": {
+            "name": "SciFi"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 8,
+        "fields": {
+            "name": "TV Show"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 9,
+        "fields": {
+            "name": "Movie"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 10,
+        "fields": {
+            "name": "Marvel Comics"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 11,
+        "fields": {
+            "name": "DC Comics"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 12,
+        "fields": {
+            "name": "Arrow"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 13,
+        "fields": {
+            "name": "The Flash"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 14,
+        "fields": {
+            "name": "Doctor Who"
+        }
+    },
+    {
+        "model": "podcast.keyword",
+        "pk": 15,
+        "fields": {
+            "name": "TARDIS"
+        }
+    },
+    {
+        "model": "podcast.episode",
+        "pk": 1,
+        "fields": {
+            "podcast": 1,
+            "title": "Episode 1: Galiffrey",
+            "author": "Davinder",
+            "subtitle": "Doctor Who news and rumors",
+            "summary": "Podcast discussing the latest Doctor Who news anad rumors",
+            "image_url": "doctorwho.jpg",
+            "description": "Podcast discussing the latest Doctor Who news anad rumors",
+            "pub_date": "2016-08-30T18:09:51Z",
+            "date_created": "2016-08-30T18:09:53.123Z",
+            "last_modified": "2016-08-30T18:14:55.280Z",
+            "keywords": [
+                8,
+                14,
+                7
+            ]
+        }
+    },
+    {
+        "model": "podcast.episode",
+        "pk": 2,
+        "fields": {
+            "podcast": 1,
+            "title": "Episode 2: The TARDIS",
+            "author": "Davinder",
+            "subtitle": "What is the TARDIS?",
+            "summary": "Discuss the TARDIS, how it came to be and how the Doctor got his",
+            "image_url": "doctorwho.jpg",
+            "description": "Discuss the TARDIS, how it came to be and how the Doctor got his. TARDIS stands fot Time And Relative Dimension In Space.",
+            "pub_date": "2016-08-30T18:17:04Z",
+            "date_created": "2016-08-30T18:20:56.282Z",
+            "last_modified": "2016-08-30T18:20:56.282Z",
+            "keywords": [
+                8,
+                7,
+                14,
+                15
+            ]
+        }
+    },
+    {
+        "model": "podcast.media",
+        "pk": 1,
+        "fields": {
+            "episode": 1,
+            "format": 2,
+            "duration": 300,
+            "filename": "episode1.mp4",
+            "mime": 2
+        }
+    },
+    {
+        "model": "podcast.media",
+        "pk": 2,
+        "fields": {
+            "episode": 1,
+            "format": 1,
+            "duration": 310,
+            "filename": "episode1.mp3",
+            "mime": 1
+        }
+    },
+    {
+        "model": "podcast.media",
+        "pk": 3,
+        "fields": {
+            "episode": 2,
+            "format": 1,
+            "duration": 500,
+            "filename": "episode2.mp3",
+            "mime": 1
+        }
+    },
+    {
+        "model": "podcast.media",
+        "pk": 4,
+        "fields": {
+            "episode": 2,
+            "format": 2,
+            "duration": 560,
+            "filename": "episode2.mp4",
+            "mime": 2
+        }
+    }
+]
